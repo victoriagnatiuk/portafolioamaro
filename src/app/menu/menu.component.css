@@ -29,9 +29,15 @@
     background-color: #272727fa;
     border-radius: 5px;
     box-shadow: 10px 10px 10px #36353594;
-    margin-top: 31%;
+    margin-top: 200px;
     font-size: 140%;
 }
+
+.collapse-vickys-navbar{
+    position: relative;
+    left: 2%;
+}
+
 .navbar-nav2{
     padding: 0;
 }
