@@ -10,6 +10,7 @@ import { ContactoComponent } from './views/contacto/contacto.component';
 import { HomeComponent } from './views/home/home.component';
 import { ListaproyectosComponent } from './views/listaproyectos/listaproyectos.component';
 import { PaginaNoEncontradaComponent } from './views/pagina-no-encontrada/pagina-no-encontrada.component';
+import { ResumenproyectoComponent } from './views/listaproyectos/resumenproyecto/resumenproyecto.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { PaginaNoEncontradaComponent } from './views/pagina-no-encontrada/pagina
     ContactoComponent,
     HomeComponent,
     ListaproyectosComponent,
-    PaginaNoEncontradaComponent
+    PaginaNoEncontradaComponent,
+    ResumenproyectoComponent
   ],
   imports: [
     BrowserModule,

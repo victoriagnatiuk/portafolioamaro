@@ -36,6 +36,9 @@ a:focus{
 .footer{
     background: #111111;
     padding-top: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 .footer-about{
     margin-bottom: 20px;

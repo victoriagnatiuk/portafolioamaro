@@ -1,0 +1,32 @@
+
+.caja-proyecto{
+    width: 48%;
+    padding: 2%;
+    box-sizing: border-box;
+    display: inline-table;
+}
+
+.caja-proyecto-nombre{
+    background-color: #161616;
+    height: 60px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px #fbf6f6;
+    font-size: 160%;
+    padding-top: 1.5%;
+}
+
+.caja-proyecto-imagen{
+    width: 100%;
+}
+
+.caja-proyecto-tags{
+    display: flex;
+    background-color: #272727a6;
+    color: white;
+    width: 91.65%;
+    height: 60px;
+    padding: 20px;
+    position: absolute;
+    top: 82%;
+}

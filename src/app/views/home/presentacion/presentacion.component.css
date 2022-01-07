@@ -1,3 +1,14 @@
 .container{
     display: flex;
 }
+.foto{
+    vertical-align: middle;
+    border-style: none;
+    width: 20%;
+    height: 20%;
+    margin: 2%;
+    border-radius: 100%;
+}
+.bloque-info{
+    margin: 5%;
+}
