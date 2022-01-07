@@ -1,0 +1,12 @@
+.home-container{
+    background: whitesmoke;
+    box-shadow: 10px 10px 10px #ffffff6b;
+    border-radius: 10px;
+    margin: 0 2%;
+    height: 84%;
+    padding: 0.5%;
+    text-align: center;
+}
+.inside-container{
+    overflow-y: auto;
+}
