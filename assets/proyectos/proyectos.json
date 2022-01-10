@@ -1,0 +1,4 @@
+[
+    {"name" : "Goblin Slayer", "description" : "A hack-n-slash rpg 2D game inspired in Goblin Slayer series", "img": "assets/img/pr1.jpeg", "tags": "C#, ShaderLab, HLSL"},
+    {"name" : "Dopple Banger", "description" : "Juego de piratas", "img": "assets/img/pr1.jpeg", "tags": "C, C++, CMake"}
+]
