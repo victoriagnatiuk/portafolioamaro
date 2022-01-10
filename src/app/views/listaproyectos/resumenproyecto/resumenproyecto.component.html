@@ -3,9 +3,9 @@
     <!-- <div class="caja-proyecto-imagen"> -->
     <img class="caja-proyecto-imagen" src="/assets/img/pr1.jpeg" alt="image">
     <!-- </div> -->
-    <div *ngIf="cProject" class="caja-proyecto-tags">
-        <div *ngFor="let tag of cProject.etiquetas">
-            <p class="tag">{{tag}}</p>
-        </div>
+        <div *ngIf="cProject" class="caja-proyecto-tags">
+            <div *ngFor="let tag of cProject.etiquetas">
+                <p class="tag">{{tag}}</p>
+            </div>
     </div>
 </div>

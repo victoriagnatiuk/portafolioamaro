@@ -4,16 +4,16 @@
     padding: 2%;
     box-sizing: border-box;
     display: inline-table;
+    position: relative;
 }
 
 .caja-proyecto-nombre{
-    background-color: #161616;
-    height: 60px;
+    background-color: #1c1c1c;
     color: white;
     text-align: center;
     text-shadow: 2px 2px 2px #fbf6f6;
     font-size: 160%;
-    padding-top: 1.5%;
+    padding: 1.5%;
 }
 
 .caja-proyecto-imagen{
@@ -24,11 +24,13 @@
     display: flex;
     background-color: #272727a6;
     color: white;
-    width: 91.65%;
-    height: 60px;
-    padding: 20px;
+    width: 91.7%;
     position: absolute;
-    top: 82%;
+    top: 80%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 14%;
 }
 
 .tag{
@@ -38,4 +40,9 @@
     padding: 0 2px;
     border: solid 1px #0e0c0c;
     box-shadow: 1px 1px 1px #080707b8;
+}
+
+@media (max-width: 768px)
+{
+    
 }
