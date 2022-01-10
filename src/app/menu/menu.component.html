@@ -4,18 +4,18 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div *ngIf="showTabletMenu" class="menu-tablet">
+  <div *ngIf="showTabletMenu" class="menu-tablet" (mouseleave)="toggleTabletMenu()">
     <ul class="navbar-nav2">
-      <li class="nav-link nav-item" routerLink="/home">Inicio</li>
-      <li class="nav-link nav-item" routerLink="/listaproyectos">Proyectos</li>
-      <li class="nav-link nav-item" routerLink="/contacto">Contacto</li>
+      <li class="nav-link nav-item" routerLink="/home">INICIO</li>
+      <li class="nav-link nav-item" routerLink="/listaproyectos">PROYECTOS</li>
+      <li class="nav-link nav-item" routerLink="/contacto">CONTACTO</li>
     </ul>
   </div>
   <div class="collapse-vickys-navbar">
     <ul class="navbar-nav">
-        <li class="nav-link nav-item" routerLink="/home">Inicio</li>
-        <li class="nav-link nav-item" routerLink="/listaproyectos">Proyectos</li>
-        <li class="nav-link nav-item" routerLink="/contacto">Contacto</li>
+        <li class="nav-link nav-item" routerLink="/home">INICIO</li>
+        <li class="nav-link nav-item" routerLink="/listaproyectos">PROYECTOS</li>
+        <li class="nav-link nav-item" routerLink="/contacto">CONTACTO</li>
     </ul>
   </div>
 

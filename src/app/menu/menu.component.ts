@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, Renderer2, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-menu',
@@ -6,14 +6,22 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./menu.component.css']
 })
 export class MenuComponent implements OnInit {
-  showTabletMenu:boolean = false;
+  @ViewChild('menuIcon')
+  iconoMenu!: ElementRef;
+  @ViewChild('menuTablet')
+  boxMenu!: ElementRef;
 
-  constructor() { }
+  public showTabletMenu: boolean;
 
-  ngOnInit(): void {
+  constructor(private renderer: Renderer2) {
+    this.showTabletMenu = false
   }
 
-  toggleTabletMenu(){
+  ngOnInit(): void {
+    this.showTabletMenu = false
+  }
+
+  toggleTabletMenu() {
     this.showTabletMenu = !this.showTabletMenu;
   }
 

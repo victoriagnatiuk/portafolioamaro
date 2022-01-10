@@ -1,11 +1,15 @@
-<div class="caja-proyecto">
+<div class="caja-proyecto" (mouseenter)="fShowDescription()" (mouseleave)="fShowDescription()">
     <div *ngIf="cProject" class="caja-proyecto-nombre">{{cProject.nombre}}</div>
-    <!-- <div class="caja-proyecto-imagen"> -->
-    <img class="caja-proyecto-imagen" src="assets/img/pr1.jpeg" alt="image">
-    <!-- </div> -->
+    <div class="caja-proyecto-imagen">
+        <img class="proyecto-portada" src="assets/img/pr1.jpeg" alt="image">
+        <div *ngIf="cProject && vShowDescription" class="description-panel">
+            <p>{{cProject.descripcion}}</p>
+        </div>
         <div *ngIf="cProject" class="caja-proyecto-tags">
             <div *ngFor="let tag of cProject.etiquetas">
                 <p class="tag">{{tag}}</p>
             </div>
+        </div>
     </div>
+    
 </div>

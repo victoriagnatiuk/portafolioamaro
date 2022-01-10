@@ -1,36 +1,68 @@
 
 .caja-proyecto{
-    width: 48%;
-    padding: 2%;
+    width: 44%;
+    margin: 2%;
     box-sizing: border-box;
     display: inline-table;
     position: relative;
+    box-shadow: 10px 10px 10px #545454b3;
+}
+.caja-proyecto{
+    cursor: pointer;
 }
 
 .caja-proyecto-nombre{
     background-color: #1c1c1c;
     color: white;
     text-align: center;
-    text-shadow: 2px 2px 2px #fbf6f6;
+    text-shadow: 2px 1px 2px #fbf6f6a8;
     font-size: 160%;
     padding: 1.5%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
 }
 
 .caja-proyecto-imagen{
     width: 100%;
+    position: relative;
+}
+
+.description-panel{
+    background-color: #272727a6;
+    color: white;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 20%;
+    padding: auto;
+    height: 84%;
+}
+
+.proyecto-portada{
+    width: 100%;
+    border-left: 2px solid #1c1c1c;
+    border-right: 2px solid #1c1c1c;
 }
 
 .caja-proyecto-tags{
     display: flex;
     background-color: #272727a6;
     color: white;
-    width: 91.7%;
+    width: 100%;
     position: absolute;
-    top: 80%;
     left: 0;
+    bottom: 0;
     right: 0;
     margin: auto;
-    height: 14%;
+    height: 16%;
+    padding: 2.3%;
+    border-bottom: 2px solid #1c1c1c;
+    border-left: 2px solid #1c1c1c;
+    border-right: 2px solid #1c1c1c;
 }
 
 .tag{
@@ -41,8 +73,21 @@
     border: solid 1px #0e0c0c;
     box-shadow: 1px 1px 1px #080707b8;
 }
+.tag:hover{
+    background: #545252;
+}
 
 @media (max-width: 768px)
 {
-    
+    .caja-proyecto{
+        width: 80%;
+        margin: 2%;
+        box-sizing: border-box;
+        display: inline-table;
+        position: relative;
+        box-shadow: 10px 10px 10px #545454b3;
+    }
+    .caja-proyecto{
+        cursor: pointer;
+    }
 }

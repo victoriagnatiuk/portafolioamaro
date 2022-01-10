@@ -11,15 +11,17 @@ export class ResumenproyectoComponent implements OnInit
  {
   @Input()
   public cProject: Proyecto | undefined;
-  
+  public vShowDescription : boolean;
+
   constructor() { 
-    //  this.nombre = datosProyecto.name;
-    //   this.descripcion = datosProyecto.description;
-    //   this.imagen = datosProyecto.img;
-    //   this.etiquetas = datosProyecto.tags;
+    this.vShowDescription = false;
   }
 
   ngOnInit(): void {
-    console.log(this.cProject);
+    this.vShowDescription = false;
+  }
+
+  fShowDescription(){
+    this.vShowDescription = !this.vShowDescription;
   }
 }
