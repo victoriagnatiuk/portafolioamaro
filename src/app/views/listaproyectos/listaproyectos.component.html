@@ -1,8 +1,5 @@
 <div class="filtros-proyectos">
 </div>
 <div class="contenedor-proyectos">
-    <app-resumenproyecto></app-resumenproyecto>
-    <app-resumenproyecto></app-resumenproyecto>
-    <app-resumenproyecto></app-resumenproyecto>
-    <app-resumenproyecto></app-resumenproyecto>
+    <app-resumenproyecto *ngFor="let project of projectsListClass" [cProject] ="project"></app-resumenproyecto>
 </div>

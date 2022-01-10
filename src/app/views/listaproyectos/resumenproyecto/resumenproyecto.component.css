@@ -30,3 +30,12 @@
     position: absolute;
     top: 82%;
 }
+
+.tag{
+    background: #323131;
+    color: #ffffff; 
+    margin: 0 5px;
+    padding: 0 2px;
+    border: solid 1px #0e0c0c;
+    box-shadow: 1px 1px 1px #080707b8;
+}

@@ -11,6 +11,7 @@ import { HomeComponent } from './views/home/home.component';
 import { ListaproyectosComponent } from './views/listaproyectos/listaproyectos.component';
 import { PaginaNoEncontradaComponent } from './views/pagina-no-encontrada/pagina-no-encontrada.component';
 import { ResumenproyectoComponent } from './views/listaproyectos/resumenproyecto/resumenproyecto.component';
+import { Proyecto } from './shared/classes/proyecto';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { ResumenproyectoComponent } from './views/listaproyectos/resumenproyecto
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
